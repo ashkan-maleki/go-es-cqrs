@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/AleksK1NG/es-microservice/docs"
+	"github.com/ashkan-maleki/go-es-cqrs/docs"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"strings"

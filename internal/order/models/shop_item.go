@@ -2,7 +2,7 @@ package models
 
 import (
 	"fmt"
-	orderService "github.com/AleksK1NG/es-microservice/proto/order"
+	orderService "github.com/ashkan-maleki/go-es-cqrs/proto/order"
 )
 
 type ShopItem struct {

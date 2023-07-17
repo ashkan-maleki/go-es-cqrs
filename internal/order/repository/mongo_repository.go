@@ -3,12 +3,11 @@ package repository
 import (
 	"context"
 
-	"github.com/AleksK1NG/es-microservice/config"
-	"github.com/AleksK1NG/es-microservice/internal/order/models"
-	"github.com/AleksK1NG/es-microservice/pkg/constants"
-	"github.com/AleksK1NG/es-microservice/pkg/logger"
-	"github.com/AleksK1NG/es-microservice/pkg/tracing"
-	"github.com/opentracing/opentracing-go"
+	"github.com/ashkan-maleki/go-es-cqrs/config"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/models"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/constants"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/logger"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/tracing"
 	"github.com/opentracing/opentracing-go/log"
 
 	"go.mongodb.org/mongo-driver/bson"

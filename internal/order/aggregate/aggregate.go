@@ -1,9 +1,9 @@
 package aggregate
 
 import (
-	"github.com/AleksK1NG/es-microservice/internal/order/events/v1"
-	"github.com/AleksK1NG/es-microservice/internal/order/models"
-	"github.com/AleksK1NG/es-microservice/pkg/es"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/events/v1"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/models"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/es"
 	"github.com/pkg/errors"
 )
 

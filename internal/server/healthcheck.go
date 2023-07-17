@@ -2,7 +2,7 @@ package server
 
 import (
 	"context"
-	"github.com/AleksK1NG/es-microservice/pkg/constants"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/constants"
 	"github.com/heptiolabs/healthcheck"
 	"github.com/pkg/errors"
 	"net/http"

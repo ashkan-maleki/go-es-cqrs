@@ -1,8 +1,8 @@
 package logger
 
 import (
-	"github.com/AleksK1NG/es-microservice/pkg/constants"
 	"github.com/EventStore/EventStore-Client-Go/esdb"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/constants"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"os"

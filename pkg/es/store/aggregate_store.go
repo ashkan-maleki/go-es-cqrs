@@ -2,11 +2,10 @@ package store
 
 import (
 	"context"
-	"github.com/AleksK1NG/es-microservice/pkg/es"
-	"github.com/AleksK1NG/es-microservice/pkg/logger"
-	"github.com/AleksK1NG/es-microservice/pkg/tracing"
 	"github.com/EventStore/EventStore-Client-Go/esdb"
-	"github.com/opentracing/opentracing-go"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/es"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/logger"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/tracing"
 	"github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
 	"io"

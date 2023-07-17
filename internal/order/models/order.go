@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	orderService "github.com/AleksK1NG/es-microservice/proto/order"
+	orderService "github.com/ashkan-maleki/go-es-cqrs/proto/order"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

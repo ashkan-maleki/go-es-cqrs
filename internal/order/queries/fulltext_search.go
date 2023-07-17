@@ -2,12 +2,11 @@ package queries
 
 import (
 	"context"
-	"github.com/AleksK1NG/es-microservice/config"
-	"github.com/AleksK1NG/es-microservice/internal/dto"
-	"github.com/AleksK1NG/es-microservice/internal/order/repository"
-	"github.com/AleksK1NG/es-microservice/pkg/es"
-	"github.com/AleksK1NG/es-microservice/pkg/logger"
-	"github.com/opentracing/opentracing-go"
+	"github.com/ashkan-maleki/go-es-cqrs/config"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/dto"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/repository"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/es"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/logger"
 	"github.com/opentracing/opentracing-go/log"
 )
 

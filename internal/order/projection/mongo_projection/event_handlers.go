@@ -3,12 +3,11 @@ package mongo_projection
 import (
 	"context"
 
-	"github.com/AleksK1NG/es-microservice/internal/order/aggregate"
-	"github.com/AleksK1NG/es-microservice/internal/order/events/v1"
-	"github.com/AleksK1NG/es-microservice/internal/order/models"
-	"github.com/AleksK1NG/es-microservice/pkg/es"
-	"github.com/AleksK1NG/es-microservice/pkg/tracing"
-	"github.com/opentracing/opentracing-go"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/aggregate"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/events/v1"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/models"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/es"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/tracing"
 	"github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
 )

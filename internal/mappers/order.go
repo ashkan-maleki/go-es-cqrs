@@ -1,10 +1,10 @@
 package mappers
 
 import (
-	"github.com/AleksK1NG/es-microservice/internal/dto"
-	"github.com/AleksK1NG/es-microservice/internal/order/aggregate"
-	"github.com/AleksK1NG/es-microservice/internal/order/models"
-	orderService "github.com/AleksK1NG/es-microservice/proto/order"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/dto"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/aggregate"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/models"
+	orderService "github.com/ashkan-maleki/go-es-cqrs/proto/order"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

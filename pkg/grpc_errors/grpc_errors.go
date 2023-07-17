@@ -3,9 +3,9 @@ package grpcErrors
 import (
 	"context"
 	"database/sql"
-	"github.com/AleksK1NG/es-microservice/pkg/constants"
-	"github.com/AleksK1NG/es-microservice/pkg/utils"
 	"github.com/EventStore/EventStore-Client-Go/esdb"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/constants"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/utils"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
@@ -15,12 +15,12 @@ var (
 	ErrNoCtxMetaData = errors.New("No ctx metadata")
 )
 
-//ErrResponse get gRPC error response
+// ErrResponse get gRPC error response
 func ErrResponse(err error) error {
 	return status.Error(GetErrStatusCode(err), err.Error())
 }
 
-//GetErrStatusCode get error status code from error
+// GetErrStatusCode get error status code from error
 func GetErrStatusCode(err error) codes.Code {
 	switch {
 	case errors.Is(err, sql.ErrNoRows):

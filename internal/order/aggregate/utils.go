@@ -4,10 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/AleksK1NG/es-microservice/internal/order/models"
-	"github.com/AleksK1NG/es-microservice/pkg/es"
 	"github.com/EventStore/EventStore-Client-Go/esdb"
-	"github.com/opentracing/opentracing-go"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/models"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/es"
 	"github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
 )

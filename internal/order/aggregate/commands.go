@@ -2,12 +2,12 @@ package aggregate
 
 import (
 	"context"
+	"github.com/opentracing/opentracing-go"
 	"time"
 
-	eventsV1 "github.com/AleksK1NG/es-microservice/internal/order/events/v1"
-	"github.com/AleksK1NG/es-microservice/internal/order/models"
-	"github.com/AleksK1NG/es-microservice/pkg/tracing"
-	"github.com/opentracing/opentracing-go"
+	eventsV1 "github.com/ashkan-maleki/go-es-cqrs/internal/order/events/v1"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/models"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/tracing"
 	"github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
 )

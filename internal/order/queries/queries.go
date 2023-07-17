@@ -1,6 +1,6 @@
 package queries
 
-import "github.com/AleksK1NG/es-microservice/pkg/utils"
+import "github.com/ashkan-maleki/go-es-cqrs/pkg/utils"
 
 type OrderQueries struct {
 	GetOrderByID GetOrderByIDQueryHandler

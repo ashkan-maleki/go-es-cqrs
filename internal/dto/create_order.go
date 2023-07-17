@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/AleksK1NG/es-microservice/internal/order/models"
+import "github.com/ashkan-maleki/go-es-cqrs/internal/order/models"
 
 type CreateOrderReqDto struct {
 	ShopItems       []*models.ShopItem `json:"shopItems" bson:"shopItems,omitempty" validate:"required"`

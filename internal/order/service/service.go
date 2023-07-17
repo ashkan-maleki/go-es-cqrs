@@ -1,12 +1,12 @@
 package service
 
 import (
-	"github.com/AleksK1NG/es-microservice/config"
-	"github.com/AleksK1NG/es-microservice/internal/order/commands/v1"
-	"github.com/AleksK1NG/es-microservice/internal/order/queries"
-	"github.com/AleksK1NG/es-microservice/internal/order/repository"
-	"github.com/AleksK1NG/es-microservice/pkg/es"
-	"github.com/AleksK1NG/es-microservice/pkg/logger"
+	"github.com/ashkan-maleki/go-es-cqrs/config"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/commands/v1"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/queries"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/repository"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/es"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/logger"
 )
 
 type OrderService struct {

@@ -1,8 +1,8 @@
 package mappers
 
 import (
-	"github.com/AleksK1NG/es-microservice/internal/dto"
-	orderService "github.com/AleksK1NG/es-microservice/proto/order"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/dto"
+	orderService "github.com/ashkan-maleki/go-es-cqrs/proto/order"
 )
 
 func PaginationFromProto(protoPagination *orderService.Pagination) dto.Pagination {

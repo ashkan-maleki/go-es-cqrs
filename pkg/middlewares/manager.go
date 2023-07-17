@@ -1,9 +1,8 @@
 package middlewares
 
 import (
-	"github.com/AleksK1NG/es-microservice/config"
-	"github.com/AleksK1NG/es-microservice/pkg/logger"
-	"github.com/labstack/echo/v4"
+	"github.com/ashkan-maleki/go-es-cqrs/config"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/logger"
 	"strings"
 	"time"
 )

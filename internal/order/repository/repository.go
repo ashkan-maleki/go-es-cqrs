@@ -3,9 +3,9 @@ package repository
 import (
 	"context"
 
-	"github.com/AleksK1NG/es-microservice/internal/dto"
-	"github.com/AleksK1NG/es-microservice/internal/order/models"
-	"github.com/AleksK1NG/es-microservice/pkg/utils"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/dto"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/models"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/utils"
 )
 
 type OrderMongoRepository interface {

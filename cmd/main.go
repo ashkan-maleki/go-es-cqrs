@@ -4,14 +4,14 @@ import (
 	"flag"
 	"log"
 
-	"github.com/AleksK1NG/es-microservice/config"
-	"github.com/AleksK1NG/es-microservice/internal/server"
-	"github.com/AleksK1NG/es-microservice/pkg/logger"
+	"github.com/ashkan-maleki/go-es-cqrs/config"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/server"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/logger"
 )
 
-// @contact.name Alexander Bryksin
-// @contact.url https://github.com/AleksK1NG
-// @contact.email alexander.bryksin@yandex.ru
+// @contact.name Ashkan Maleki
+// @contact.url https://github.com/ashkan-maleki/go-es-cqrs
+// @contact.email no email
 func main() {
 	flag.Parse()
 

@@ -3,7 +3,7 @@ package metrics
 import (
 	"fmt"
 
-	"github.com/AleksK1NG/es-microservice/config"
+	"github.com/ashkan-maleki/go-es-cqrs/config"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 )

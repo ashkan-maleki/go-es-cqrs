@@ -3,9 +3,7 @@ package tracing
 import (
 	"context"
 	"encoding/json"
-	"github.com/AleksK1NG/es-microservice/pkg/es"
-	"github.com/labstack/echo/v4"
-	"github.com/opentracing/opentracing-go"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/es"
 	"github.com/opentracing/opentracing-go/ext"
 	"google.golang.org/grpc/metadata"
 )

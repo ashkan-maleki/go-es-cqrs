@@ -3,8 +3,8 @@ package v1
 import (
 	"time"
 
-	"github.com/AleksK1NG/es-microservice/internal/order/models"
-	"github.com/AleksK1NG/es-microservice/pkg/es"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/models"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/es"
 )
 
 type CreateOrderCommand struct {

@@ -1,9 +1,9 @@
 package server
 
 import (
-	grpc2 "github.com/AleksK1NG/es-microservice/internal/order/delivery/grpc"
-	"github.com/AleksK1NG/es-microservice/pkg/constants"
-	orderService "github.com/AleksK1NG/es-microservice/proto/order"
+	grpc2 "github.com/ashkan-maleki/go-es-cqrs/internal/order/delivery/grpc"
+	"github.com/ashkan-maleki/go-es-cqrs/pkg/constants"
+	orderService "github.com/ashkan-maleki/go-es-cqrs/proto/order"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"

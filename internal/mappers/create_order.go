@@ -1,8 +1,8 @@
 package mappers
 
 import (
-	"github.com/AleksK1NG/es-microservice/internal/dto"
-	"github.com/AleksK1NG/es-microservice/internal/order/events/v1"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/dto"
+	"github.com/ashkan-maleki/go-es-cqrs/internal/order/events/v1"
 )
 
 func CreateOrderDtoToEventData(createDto dto.CreateOrderReqDto) v1.OrderCreatedEvent {
